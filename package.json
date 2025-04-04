@@ -1,0 +1,64 @@
+{
+  "name": "tmdb",
+  "version": "1.0.0",
+  "description": "TMDB Frontend and Backend",
+  "private": true,
+  "workspaces": [
+    "my-express-app",
+    "foodapp"
+  ],
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "json-server": "^1.0.0-beta.3",
+    "method-override": "^3.0.0",
+    "react": "^18.3.1",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.29.0",
+    "react-scripts": "^3.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
+  },
+  "scripts": {
+  "install": "npm install",
+  "start:frontend": "cd foodapp && npm start",
+  "start:backend": "cd my-express-app && nodemon index.js",
+  "server": "cd foodapp && json-server --watch db.json --port 5000",
+  "dev": "concurrently \"npm run server\" \"npm run start:frontend\"",
+  "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+  "build": "cd foodapp && npm run build",
+  "test": "cd foodapp && npm test"
+},
+
+  "proxy": "http://localhost:4000",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}

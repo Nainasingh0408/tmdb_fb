@@ -1,0 +1,88 @@
+{
+  "favorites": [
+    {
+      "id": 235930,
+      "backdrop_path": "/6coWhZQorBkjQd5HfY5pv5vtvMg.jpg",
+      "name": "Devil May Cry",
+      "original_name": "Devil May Cry",
+      "overview": "When a mysterious villain threatens to open the gates of Hell, a devilishly handsome demon hunter could be the world's best hope for salvation.",
+      "poster_path": "/cAT1mbx8xX0ZUctyu5ud4h56OtP.jpg",
+      "media_type": "tv",
+      "adult": false,
+      "original_language": "en",
+      "genre_ids": [
+        16,
+        10759,
+        10765
+      ],
+      "popularity": 8.5344,
+      "first_air_date": "2025-04-03",
+      "vote_average": 8,
+      "vote_count": 5,
+      "origin_country": [
+        "US"
+      ]
+    },
+    {
+      "id": 1233575,
+      "backdrop_path": "/gxO51FVgADhYGGnnRPIlutVqb30.jpg",
+      "title": "Black Bag",
+      "original_title": "Black Bag",
+      "overview": "When an intelligence agent is suspected of betraying the nation, her husband – also a legendary agent · faces the ultimate test of whether to be loyal to his marriage, or his country.",
+      "poster_path": "/hHPovtU4b96LHcoeEwRkGHI5btw.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "original_language": "en",
+      "genre_ids": [
+        53,
+        18,
+        9648
+      ],
+      "popularity": 146.2493,
+      "release_date": "2025-03-12",
+      "video": false,
+      "vote_average": 6.631,
+      "vote_count": 168
+    },
+    {
+      "id": 1265623,
+      "backdrop_path": "/oDvBfDVgF6uthIPdRfC6zqqbvcE.jpg",
+      "title": "Banger",
+      "original_title": "Banger",
+      "overview": "When cops recruit a has-been DJ to bust a quirky criminal gang with ties to his rival, he spots a chance to mix his way back to the top with a banger.",
+      "poster_path": "/2QAgOQWcdQLnbki5V2Sjn1tcnHS.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "original_language": "fr",
+      "genre_ids": [
+        35,
+        10402
+      ],
+      "popularity": 47.2756,
+      "release_date": "2025-04-01",
+      "video": false,
+      "vote_average": 6.143,
+      "vote_count": 7
+    },
+    {
+      "id": 1265623,
+      "backdrop_path": "/oDvBfDVgF6uthIPdRfC6zqqbvcE.jpg",
+      "title": "Banger",
+      "original_title": "Banger",
+      "overview": "When cops recruit a has-been DJ to bust a quirky criminal gang with ties to his rival, he spots a chance to mix his way back to the top with a banger.",
+      "poster_path": "/2QAgOQWcdQLnbki5V2Sjn1tcnHS.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "original_language": "fr",
+      "genre_ids": [
+        35,
+        10402
+      ],
+      "popularity": 47.2756,
+      "release_date": "2025-04-01",
+      "video": false,
+      "vote_average": 6.143,
+      "vote_count": 7
+    }
+  ]
+}
